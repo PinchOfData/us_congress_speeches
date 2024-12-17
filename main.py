@@ -62,3 +62,16 @@ for congress in congresses_to_match:
     final_dfs[congress] = processor.match_speakers()
 
     logging.info(f"Successfully matched congress {congress}")
+
+# Directory to save the file
+output_directory = "matched_speeches"
+os.makedirs(output_directory, exist_ok=True)
+
+# Concatenate all DataFrames from final_dfs
+concatenated_df = pd.concat(final_dfs.values(), ignore_index=True)
+
+# Define the file path to save the concatenated DataFrame
+file_path = os.path.join(output_directory, "speeches_with_info_114th_to_118th.csv")
+
+concatenated_df.to_csv(file_path, index=False)
+logging.info(f"Saved all matched speeches to {file_path}")

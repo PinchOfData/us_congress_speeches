@@ -43,17 +43,21 @@ class CongressionalSpeechMatcher:
         datasets = []
 
         # 1. Match by first name, last name, and state
-        df_matched_all_3 = self._match_by_first_name_last_name_state(df_all_three)
+        df_matched_all_3 = self._match_speakers_with_criteria(
+            df_all_three, ["state", "first_name", "last_name"]
+        )
         datasets.append(df_matched_all_3)
 
         # 2. Match by state and last name
-        df_matched_state_lastname_only = self._match_by_state_last_name(
-            df_state_lastname_only
+        df_matched_state_lastname_only = self._match_speakers_with_criteria(
+            df_state_lastname_only, ["state", "last_name"]
         )
         datasets.append(df_matched_state_lastname_only)
 
         # 3. Match by last name only
-        df_matched_lastname_only = self._match_by_last_name(df_lastname_only)
+        df_matched_lastname_only = self._match_speakers_with_criteria(
+            df_lastname_only, ["last_name"]
+        )
         datasets.append(df_matched_lastname_only)
 
         # 4. Match by fuzzy matching full name and state
@@ -185,105 +189,43 @@ class CongressionalSpeechMatcher:
             df_firstname_lastname_only,
         )
 
-    def _match_by_first_name_last_name_state(self, df):
+    def _match_speakers_with_criteria(self, df, match_columns):
         """
-        Match speakers by first name, last name, and state.
+        Match speakers based on specified columns.
 
         :param df: DataFrame to match
+        :param match_columns: List of columns to match on (e.g., ["state", "last_name"])
         :return: Matched DataFrame
         """
+        # Validate input
+        if not isinstance(match_columns, list) or not all(
+            isinstance(col, str) for col in match_columns
+        ):
+            logger.error(
+                "Invalid input: match_columns must be a list of column names (strings)."
+            )
+
         # Prepare dataframes for matching
         cols_to_drop = df.columns.intersection(self.df_politician_info.columns)
-        cols_to_drop = [
-            col
-            for col in cols_to_drop
-            if col not in ["state", "first_name", "last_name"]
-        ]
+        cols_to_drop = [col for col in cols_to_drop if col not in match_columns]
         df_reset = df.drop(columns=cols_to_drop)
 
         # Get unique politician info
         df_politician_info_unique = self.df_politician_info.drop_duplicates(
-            subset=["state", "first_name", "last_name"], keep=False
+            subset=match_columns, keep=False
         )
 
         # Perform matching
         df_matched = pd.merge(
             df_reset,
             df_politician_info_unique,
-            on=["state", "first_name", "last_name"],
+            on=match_columns,
             how="inner",
             validate="many_to_one",
         )
 
         # Add match metadata
-        df_matched["matched_by"] = "first_name, last_name, state"
-        df_matched["similarity_score"] = 100
-
-        return df_matched
-
-    def _match_by_state_last_name(self, df):
-        """
-        Match speakers by state and last name.
-
-        :param df: DataFrame to match
-        :return: Matched DataFrame
-        """
-        # Prepare dataframes for matching
-        cols_to_drop = df.columns.intersection(self.df_politician_info.columns)
-        cols_to_drop = [
-            col for col in cols_to_drop if col not in ["state", "last_name"]
-        ]
-        df_reset = df.drop(columns=cols_to_drop)
-
-        # Get unique politician info
-        df_politician_info_unique = self.df_politician_info.drop_duplicates(
-            subset=["state", "last_name"], keep=False
-        )
-
-        # Perform matching
-        df_matched = pd.merge(
-            df_reset,
-            df_politician_info_unique,
-            on=["state", "last_name"],
-            how="inner",
-            validate="many_to_one",
-        )
-
-        # Add match metadata
-        df_matched["matched_by"] = "state, last_name"
-        df_matched["similarity_score"] = 100
-
-        return df_matched
-
-    def _match_by_last_name(self, df):
-        """
-        Match speakers by last name only.
-
-        :param df: DataFrame to match
-        :return: Matched DataFrame
-        """
-        # Prepare dataframes for matching
-        cols_to_drop = df.columns.intersection(
-            self.df_politician_info.columns
-        ).difference(["last_name"])
-        df_reset = df.drop(columns=cols_to_drop)
-
-        # Get unique politician info
-        df_politician_info_unique = self.df_politician_info.drop_duplicates(
-            subset=["last_name"], keep=False
-        )
-
-        # Perform matching
-        df_matched = pd.merge(
-            df_reset,
-            df_politician_info_unique,
-            on=["last_name"],
-            how="inner",
-            validate="many_to_one",
-        )
-
-        # Add match metadata
-        df_matched["matched_by"] = "last_name"
+        df_matched["matched_by"] = ", ".join(match_columns)
         df_matched["similarity_score"] = 100
 
         return df_matched
