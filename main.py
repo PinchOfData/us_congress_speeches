@@ -25,10 +25,11 @@ if preloaded_speeches_path:
 
 else:
     scraper = CongressionalRecordScraper(api_key=os.environ["CONGRESS_API_KEY"])
-    pdf_contents_df = scraper.scrape_pdfs()
+    pdf_contents_df = scraper.scrape_pdfs(output_path="pdf_contents_df.csv")
 
     extractor = CongressionalSpeechExtractor(pdf_contents_df)
     speeches_by_congress = extractor.extract_speeches()
+
 
 # Load politician infos from files
 logger.info("Reading politician info files")
@@ -43,7 +44,7 @@ for csv_file in csv_files:
     df_name = int(df_name)
     poli_info_dataframes[df_name] = pd.read_csv(file_path).astype(str)
 
-# FInally, match all the speeches with the policition info, congress by congress
+# Finally, match all the speeches with the policition info, congress by congress
 congresses_to_match = [114, 115, 116, 117, 118]
 final_dfs = {}
 for congress in congresses_to_match:

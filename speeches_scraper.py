@@ -27,7 +27,11 @@ class CongressionalRecordScraper:
         self.headers = {"X-API-Key": self.api_key}
 
     def scrape_pdfs(
-        self, output_path=None, records_to_fetch=650, batch_size=50, start_offset=1450
+        self,
+        output_path=None,
+        records_to_fetch=10000,
+        batch_size=250,
+        cutoff_date="2015-01-06",
     ):
         """
         Run the complete data collection and processing pipeline
@@ -39,9 +43,8 @@ class CongressionalRecordScraper:
         logger.info("Fetching congressional records")
         batch_size = min(batch_size, records_to_fetch)
         # Step 1: Fetch Congressional Records
-        records_df = self._fetch_congressional_records(
-            records_to_fetch, batch_size, start_offset
-        )
+        records_df = self._fetch_congressional_records(records_to_fetch, batch_size)
+        records_df = records_df[records_df["issueDate"] >= cutoff_date]
 
         # Step 2: Extract PDF URLs
         logger.info("Extracting pdf urls")
@@ -58,7 +61,7 @@ class CongressionalRecordScraper:
 
         return pdf_contents_df
 
-    def _fetch_congressional_records(self, records_to_fetch, batch_size, start_offset):
+    def _fetch_congressional_records(self, records_to_fetch, batch_size):
         """
         Fetch daily Congressional records from the API
 
@@ -68,12 +71,13 @@ class CongressionalRecordScraper:
         :return: DataFrame with issue dates and URLs
         """
         extracted_data = []
-        offset = start_offset
+        offset = 0
 
-        while offset < start_offset + records_to_fetch:
+        while offset < records_to_fetch:
             params = {"limit": batch_size, "offset": offset}
 
             try:
+                logger.info(f"Getting records, offset: {offset} ")
                 response = requests.get(
                     self.base_url, headers=self.headers, params=params
                 )
@@ -83,6 +87,11 @@ class CongressionalRecordScraper:
                 offset += batch_size
 
                 if "dailyCongressionalRecord" in data:
+                    num_records = len(list(data["dailyCongressionalRecord"]))
+                    if num_records != batch_size:
+                        logger.info(
+                            f"Num records: {num_records}, batch size: {batch_size}"
+                        )
                     for item in data["dailyCongressionalRecord"]:
                         issue_date = item.get("issueDate")
                         url = item.get("url")
@@ -95,10 +104,9 @@ class CongressionalRecordScraper:
                 logger.error(f"API Request failed: {e}")
                 break
 
-        # Convert to DataFrame and filter records (Congress 114th onwards)
         df = pd.DataFrame(extracted_data)
         df["issueDate"] = pd.to_datetime(df["issueDate"])
-        return df[df["issueDate"] >= "2015-01-06"]
+        return df
 
     def _extract_pdf_urls(self, df):
         """
