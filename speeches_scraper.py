@@ -250,7 +250,7 @@ class CongressionalSpeechExtractor:
         ]
 
         for pattern, replacement in cleaning_rules:
-            text = re.sub(pattern, replacement, text)
+            text = re.sub(pattern, replacement, str(text))
 
         return text.strip()
 
