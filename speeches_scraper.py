@@ -195,7 +195,7 @@ class CongressionalSpeechExtractor:
             rf"\b{prefix}\s+"
             r"([A-Z]+(?:\s[A-Z]+)*)\s*"
             r"(of [\w ]*)?\.?\s*"
-            r"(?:Mr\.|Madam)\s*Speaker,\s*"
+            r"(?:Mr\.|Madam)\s*(?:Speaker|President),\s*"
             r"(?P<speech>[\s\S]*?)"
             r"(?="
             r"\bThe SPEAKER pro tempore\b|"

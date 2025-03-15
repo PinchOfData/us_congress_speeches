@@ -1,13 +1,7 @@
 first_name,last_name,gender,birthday,name,type,party,start_date,end_date,congress_numbers,state
-sherrod,brown,M,1952-11-09,Sherrod Brown,sen,Democrat,2019-01-03,2025-01-03,"[116, 117, 118]",ohio
 maria,cantwell,F,1958-10-13,Maria Cantwell,sen,Democrat,2019-01-03,2025-01-03,"[116, 117, 118]",washington
-benjamin,cardin,M,1943-10-05,Benjamin L. Cardin,sen,Democrat,2019-01-03,2025-01-03,"[116, 117, 118]",maryland
-thomas,carper,M,1947-01-23,Thomas R. Carper,sen,Democrat,2019-01-03,2025-01-03,"[116, 117, 118]",delaware
-robert,casey,M,1960-04-13,"Robert P. Casey, Jr.",sen,Democrat,2019-01-03,2025-01-03,"[116, 117, 118]",pennsylvania
 amy,klobuchar,F,1960-05-25,Amy Klobuchar,sen,Democrat,2019-01-03,2025-01-03,"[116, 117, 118]",minnesota
 bernard,sanders,M,1941-09-08,Bernard Sanders,sen,Independent,2019-01-03,2025-01-03,"[116, 117, 118]",vermont
-debbie,stabenow,F,1950-04-29,Debbie Stabenow,sen,Democrat,2019-01-03,2025-01-03,"[116, 117, 118]",michigan
-jon,tester,M,1956-08-21,Jon Tester,sen,Democrat,2019-01-03,2025-01-03,"[116, 117, 118]",montana
 sheldon,whitehouse,M,1955-10-20,Sheldon Whitehouse,sen,Democrat,2019-01-03,2025-01-03,"[116, 117, 118]",rhode island
 john,barrasso,M,1952-07-21,John Barrasso,sen,Republican,2019-01-03,2025-01-03,"[116, 117, 118]",wyoming
 roger,wicker,M,1951-07-05,Roger F. Wicker,sen,Republican,2019-01-03,2025-01-03,"[116, 117, 118]",mississippi
@@ -23,430 +17,70 @@ jeanne,shaheen,F,1947-01-28,Jeanne Shaheen,sen,Democrat,2021-01-03,2027-01-03,"[
 mark,warner,M,1954-12-15,Mark R. Warner,sen,Democrat,2021-01-03,2027-01-03,"[117, 118, 119]",virginia
 kirsten,gillibrand,F,1966-12-09,Kirsten E. Gillibrand,sen,Democrat,2019-01-03,2025-01-03,"[116, 117, 118]",new york
 christopher,coons,M,1963-09-09,Christopher A. Coons,sen,Democrat,2021-01-03,2027-01-03,"[117, 118, 119]",delaware
-joe,manchin,M,1947-08-24,"Joe Manchin, III",sen,Independent,2019-01-03,2025-01-03,"[116, 117, 118]",west virginia
-robert,aderholt,M,1965-07-22,Robert B. Aderholt,rep,Republican,2021-01-03,2023-01-03,[117],alabama
 tammy,baldwin,F,1962-02-11,Tammy Baldwin,sen,Democrat,2019-01-03,2025-01-03,"[116, 117, 118]",wisconsin
 michael,bennet,M,1964-11-28,Michael F. Bennet,sen,Democrat,2017-01-03,2023-01-03,"[115, 116, 117]",colorado
-gus,bilirakis,M,1963-02-08,Gus M. Bilirakis,rep,Republican,2021-01-03,2023-01-03,[117],florida
-sanford,bishop,M,1947-02-04,"Sanford D. Bishop, Jr.",rep,Democrat,2021-01-03,2023-01-03,[117],georgia
 marsha,blackburn,F,1952-06-06,Marsha Blackburn,sen,Republican,2019-01-03,2025-01-03,"[116, 117, 118]",tennessee
-earl,blumenauer,M,1948-08-16,Earl Blumenauer,rep,Democrat,2021-01-03,2023-01-03,[117],oregon
 richard,blumenthal,M,1946-02-13,Richard Blumenthal,sen,Democrat,2017-01-03,2023-01-03,"[115, 116, 117]",connecticut
 john,boozman,M,1950-12-10,John Boozman,sen,Republican,2017-01-03,2023-01-03,"[115, 116, 117]",arkansas
-vern,buchanan,M,1951-05-08,Vern Buchanan,rep,Republican,2021-01-03,2023-01-03,[117],florida
-larry,bucshon,M,1962-05-31,Larry Bucshon,rep,Republican,2021-01-03,2023-01-03,[117],indiana
-michael,burgess,M,1950-12-23,Michael C. Burgess,rep,Republican,2021-01-03,2023-01-03,[117],texas
-ken,calvert,M,1953-06-08,Ken Calvert,rep,Republican,2021-01-03,2023-01-03,[117],california
 shelley,capito,F,1953-11-26,Shelley Moore Capito,sen,Republican,2021-01-03,2027-01-03,"[117, 118, 119]",west virginia
-andré,carson,M,1974-10-16,André Carson,rep,Democrat,2021-01-03,2023-01-03,[117],indiana
-john,carter,M,1941-11-06,John R. Carter,rep,Republican,2021-01-03,2023-01-03,[117],texas
 bill,cassidy,M,1957-09-28,Bill Cassidy,sen,Republican,2021-01-03,2027-01-03,"[117, 118, 119]",louisiana
-kathy,castor,F,1966-08-20,Kathy Castor,rep,Democrat,2021-01-03,2023-01-03,[117],florida
-judy,chu,F,1953-07-07,Judy Chu,rep,Democrat,2021-01-03,2023-01-03,[117],california
-yvette,clarke,F,1964-11-21,Yvette D. Clarke,rep,Democrat,2021-01-03,2023-01-03,[117],new york
-emanuel,cleaver,M,1944-10-26,Emanuel Cleaver,rep,Democrat,2021-01-03,2023-01-03,[117],missouri
-james,clyburn,M,1940-07-21,James E. Clyburn,rep,Democrat,2021-01-03,2023-01-03,[117],south carolina
-steve,cohen,M,1949-05-24,Steve Cohen,rep,Democrat,2021-01-03,2023-01-03,[117],tennessee
-tom,cole,M,1949-04-28,Tom Cole,rep,Republican,2021-01-03,2023-01-03,[117],oklahoma
-gerald,connolly,M,1950-03-30,Gerald E. Connolly,rep,Democrat,2021-01-03,2023-01-03,[117],virginia
-jim,costa,M,1952-04-13,Jim Costa,rep,Democrat,2021-01-03,2023-01-03,[117],california
-joe,courtney,M,1953-04-06,Joe Courtney,rep,Democrat,2021-01-03,2023-01-03,[117],connecticut
 michael,crapo,M,1951-05-20,Mike Crapo,sen,Republican,2017-01-03,2023-01-03,"[115, 116, 117]",idaho
-eric,crawford,M,1966-01-22,"Eric A. ""Rick"" Crawford",rep,Republican,2021-01-03,2023-01-03,[117],arkansas
-henry,cuellar,M,1955-09-19,Henry Cuellar,rep,Democrat,2021-01-03,2023-01-03,[117],texas
-danny,davis,M,1941-09-06,Danny K. Davis,rep,Democrat,2021-01-03,2023-01-03,[117],illinois
-diana,degette,F,1957-07-29,Diana DeGette,rep,Democrat,2021-01-03,2023-01-03,[117],colorado
-rosa,delauro,F,1943-03-02,Rosa L. DeLauro,rep,Democrat,2021-01-03,2023-01-03,[117],connecticut
-scott,desjarlais,M,1964-02-21,Scott DesJarlais,rep,Republican,2021-01-03,2023-01-03,[117],tennessee
-mario,diaz-balart,M,1961-09-25,Mario Diaz-Balart,rep,Republican,2021-01-03,2023-01-03,[117],florida
-lloyd,doggett,M,1946-10-06,Lloyd Doggett,rep,Democrat,2021-01-03,2023-01-03,[117],texas
-jeff,duncan,M,1966-01-07,Jeff Duncan,rep,Republican,2021-01-03,2023-01-03,[117],south carolina
-anna,eshoo,F,1942-12-13,Anna G. Eshoo,rep,Democrat,2021-01-03,2023-01-03,[117],california
-charles,fleischmann,M,1962-10-11,"Charles J. ""Chuck"" Fleischmann",rep,Republican,2021-01-03,2023-01-03,[117],tennessee
-virginia,foxx,F,1943-06-29,Virginia Foxx,rep,Republican,2021-01-03,2023-01-03,[117],north carolina
-john,garamendi,M,1945-01-24,John Garamendi,rep,Democrat,2021-01-03,2023-01-03,[117],california
-paul,gosar,M,1958-11-22,Paul A. Gosar,rep,Republican,2021-01-03,2023-01-03,[117],arizona
-kay,granger,F,1943-01-18,Kay Granger,rep,Republican,2021-01-03,2023-01-03,[117],texas
 charles,grassley,M,1933-09-17,Chuck Grassley,sen,Republican,2017-01-03,2023-01-03,"[115, 116, 117]",iowa
-sam,graves,M,1963-11-07,Sam Graves,rep,Republican,2021-01-03,2023-01-03,[117],missouri
-al,green,M,1947-09-01,Al Green,rep,Democrat,2021-01-03,2023-01-03,[117],texas
-h.,griffith,M,1958-03-15,H. Morgan Griffith,rep,Republican,2021-01-03,2023-01-03,[117],virginia
-raúl,grijalva,M,1948-02-19,Raúl M. Grijalva,rep,Democrat,2021-01-03,2023-01-03,[117],arizona
-brett,guthrie,M,1964-02-18,Brett Guthrie,rep,Republican,2021-01-03,2023-01-03,[117],kentucky
-andy,harris,M,1957-01-25,Andy Harris,rep,Republican,2021-01-03,2023-01-03,[117],maryland
 martin,heinrich,M,1971-10-17,Martin Heinrich,sen,Democrat,2019-01-03,2025-01-03,"[116, 117, 118]",new mexico
-james,himes,M,1966-07-05,James A. Himes,rep,Democrat,2021-01-03,2023-01-03,[117],connecticut
 mazie,hirono,F,1947-11-03,Mazie K. Hirono,sen,Democrat,2019-01-03,2025-01-03,"[116, 117, 118]",hawaii
 john,hoeven,M,1957-03-13,John Hoeven,sen,Republican,2017-01-03,2023-01-03,"[115, 116, 117]",north dakota
-steny,hoyer,M,1939-06-14,Steny H. Hoyer,rep,Democrat,2021-01-03,2023-01-03,[117],maryland
-bill,huizenga,M,1969-01-31,Bill Huizenga,rep,Republican,2021-01-03,2023-01-03,[117],michigan
-henry,johnson,M,1954-10-02,"Henry C. ""Hank"" Johnson, Jr.",rep,Democrat,2021-01-03,2023-01-03,[117],georgia
 ron,johnson,M,1955-04-08,Ron Johnson,sen,Republican,2017-01-03,2023-01-03,"[115, 116, 117]",wisconsin
-jim,jordan,M,1964-02-17,Jim Jordan,rep,Republican,2021-01-03,2023-01-03,[117],ohio
-marcy,kaptur,F,1946-06-17,Marcy Kaptur,rep,Democrat,2021-01-03,2023-01-03,[117],ohio
-william,keating,M,1952-09-06,William R. Keating,rep,Democrat,2021-01-03,2023-01-03,[117],massachusetts
-mike,kelly,M,1948-05-10,Mike Kelly,rep,Republican,2021-01-03,2023-01-03,[117],pennsylvania
-doug,lamborn,M,1954-05-24,Doug Lamborn,rep,Republican,2021-01-03,2023-01-03,[117],colorado
 james,lankford,M,1968-03-04,James Lankford,sen,Republican,2017-01-03,2023-01-03,"[115, 116, 117]",oklahoma
-rick,larsen,M,1965-06-15,Rick Larsen,rep,Democrat,2021-01-03,2023-01-03,[117],washington
-john,larson,M,1948-07-22,John B. Larson,rep,Democrat,2021-01-03,2023-01-03,[117],connecticut
-robert,latta,M,1956-04-18,Robert E. Latta,rep,Republican,2021-01-03,2023-01-03,[117],ohio
-barbara,lee,F,1946-07-16,Barbara Lee,rep,Democrat,2021-01-03,2023-01-03,[117],california
 mike,lee,M,1971-06-04,Mike Lee,sen,Republican,2017-01-03,2023-01-03,"[115, 116, 117]",utah
-zoe,lofgren,F,1947-12-21,Zoe Lofgren,rep,Democrat,2021-01-03,2023-01-03,[117],california
-frank,lucas,M,1960-01-06,Frank D. Lucas,rep,Republican,2021-01-03,2023-01-03,[117],oklahoma
-blaine,luetkemeyer,M,1952-05-07,Blaine Luetkemeyer,rep,Republican,2021-01-03,2023-01-03,[117],missouri
 ben,luján,M,1972-06-07,Ben Ray Luján,sen,Democrat,2021-01-03,2027-01-03,"[117, 118, 119]",new mexico
-stephen,lynch,M,1955-03-31,Stephen F. Lynch,rep,Democrat,2021-01-03,2023-01-03,[117],massachusetts
 edward,markey,M,1946-07-11,Edward J. Markey,sen,Democrat,2021-01-03,2027-01-03,"[117, 118, 119]",massachusetts
-doris,matsui,F,1944-09-25,Doris O. Matsui,rep,Democrat,2021-01-03,2023-01-03,[117],california
-michael,mccaul,M,1962-01-14,Michael T. McCaul,rep,Republican,2021-01-03,2023-01-03,[117],texas
-tom,mcclintock,M,1956-07-10,Tom McClintock,rep,Republican,2021-01-03,2023-01-03,[117],california
-betty,mccollum,F,1954-07-12,Betty McCollum,rep,Democrat,2021-01-03,2023-01-03,[117],minnesota
-james,mcgovern,M,1959-11-20,James P. McGovern,rep,Democrat,2021-01-03,2023-01-03,[117],massachusetts
-patrick,mchenry,M,1975-10-22,Patrick T. McHenry,rep,Republican,2021-01-03,2023-01-03,[117],north carolina
-cathy,mcmorris rodgers,F,1969-05-22,Cathy McMorris Rodgers,rep,Republican,2021-01-03,2023-01-03,[117],washington
-gregory,meeks,M,1953-09-25,Gregory W. Meeks,rep,Democrat,2021-01-03,2023-01-03,[117],new york
-gwen,moore,F,1951-04-18,Gwen Moore,rep,Democrat,2021-01-03,2023-01-03,[117],wisconsin
 jerry,moran,M,1954-05-29,Jerry Moran,sen,Republican,2017-01-03,2023-01-03,"[115, 116, 117]",kansas
 lisa,murkowski,F,1957-05-22,Lisa Murkowski,sen,Republican,2017-01-03,2023-01-03,"[115, 116, 117]",alaska
 christopher,murphy,M,1973-08-03,Christopher Murphy,sen,Democrat,2019-01-03,2025-01-03,"[116, 117, 118]",connecticut
 patty,murray,F,1950-10-11,Patty Murray,sen,Democrat,2017-01-03,2023-01-03,"[115, 116, 117]",washington
-jerrold,nadler,M,1947-06-13,Jerrold Nadler,rep,Democrat,2021-01-03,2023-01-03,[117],new york
-grace,napolitano,F,1936-12-04,Grace F. Napolitano,rep,Democrat,2021-01-03,2023-01-03,[117],california
-richard,neal,M,1949-02-14,Richard E. Neal,rep,Democrat,2021-01-03,2023-01-03,[117],massachusetts
-eleanor,norton,F,1937-06-13,Eleanor Holmes Norton,rep,Democrat,2021-01-03,2023-01-03,[117],dc
-frank,pallone,M,1951-10-30,"Frank Pallone, Jr.",rep,Democrat,2021-01-03,2023-01-03,[117],new jersey
 rand,paul,M,1963-01-07,Rand Paul,sen,Republican,2017-01-03,2023-01-03,"[115, 116, 117]",kentucky
-nancy,pelosi,F,1940-03-26,Nancy Pelosi,rep,Democrat,2021-01-03,2023-01-03,[117],california
 gary,peters,M,1958-12-01,Gary C. Peters,sen,Democrat,2021-01-03,2027-01-03,"[117, 118, 119]",michigan
-chellie,pingree,F,1955-04-02,Chellie Pingree,rep,Democrat,2021-01-03,2023-01-03,[117],maine
-bill,posey,M,1947-12-18,Bill Posey,rep,Republican,2021-01-03,2023-01-03,[117],florida
-mike,quigley,M,1958-10-17,Mike Quigley,rep,Democrat,2021-01-03,2023-01-03,[117],illinois
-harold,rogers,M,1937-12-31,Harold Rogers,rep,Republican,2021-01-03,2023-01-03,[117],kentucky
-mike,rogers,M,1958-07-16,Mike Rogers,rep,Republican,2021-01-03,2023-01-03,[117],alabama
-marco,rubio,M,1971-05-28,Marco Rubio,sen,Republican,2017-01-03,2023-01-03,"[115, 116, 117]",florida
-c.,ruppersberger,M,1946-01-31,C. A. Dutch Ruppersberger,rep,Democrat,2021-01-03,2023-01-03,[117],maryland
-gregorio,sablan,M,1955-01-19,Gregorio Kilili Camacho Sablan,rep,Democrat,2021-01-03,2023-01-03,[117],mp
-john,sarbanes,M,1962-05-22,John P. Sarbanes,rep,Democrat,2021-01-03,2023-01-03,[117],maryland
-steve,scalise,M,1965-10-06,Steve Scalise,rep,Republican,2021-01-03,2023-01-03,[117],louisiana
-janice,schakowsky,F,1944-05-26,Janice D. Schakowsky,rep,Democrat,2021-01-03,2023-01-03,[117],illinois
-adam,schiff,M,1960-06-22,Adam B. Schiff,rep,Democrat,2021-01-03,2023-01-03,[117],california
 charles,schumer,M,1950-11-23,Charles E. Schumer,sen,Democrat,2017-01-03,2023-01-03,"[115, 116, 117]",new york
-david,schweikert,M,1962-03-03,David Schweikert,rep,Republican,2021-01-03,2023-01-03,[117],arizona
-austin,scott,M,1969-12-10,Austin Scott,rep,Republican,2021-01-03,2023-01-03,[117],georgia
-david,scott,M,1945-06-27,David Scott,rep,Democrat,2021-01-03,2023-01-03,[117],georgia
-robert,scott,M,1947-04-30,"Robert C. ""Bobby"" Scott",rep,Democrat,2021-01-03,2023-01-03,[117],virginia
 tim,scott,M,1965-09-19,Tim Scott,sen,Republican,2017-01-03,2023-01-03,"[115, 116, 117]",south carolina
-terri,sewell,F,1965-01-01,Terri A. Sewell,rep,Democrat,2021-01-03,2023-01-03,[117],alabama
-brad,sherman,M,1954-10-24,Brad Sherman,rep,Democrat,2021-01-03,2023-01-03,[117],california
-michael,simpson,M,1950-09-08,Michael K. Simpson,rep,Republican,2021-01-03,2023-01-03,[117],idaho
-adam,smith,M,1965-06-15,Adam Smith,rep,Democrat,2021-01-03,2023-01-03,[117],washington
-adrian,smith,M,1970-12-19,Adrian Smith,rep,Republican,2021-01-03,2023-01-03,[117],nebraska
-christopher,smith,M,1953-03-04,Christopher H. Smith,rep,Republican,2021-01-03,2023-01-03,[117],new jersey
-linda,sánchez,F,1969-01-28,Linda T. Sánchez,rep,Democrat,2021-01-03,2023-01-03,[117],california
-bennie,thompson,M,1948-01-28,Bennie G. Thompson,rep,Democrat,2021-01-03,2023-01-03,[117],mississippi
-mike,thompson,M,1951-01-24,Mike Thompson,rep,Democrat,2021-01-03,2023-01-03,[117],california
-glenn,thompson,M,1959-07-27,Glenn Thompson,rep,Republican,2021-01-03,2023-01-03,[117],pennsylvania
 john,thune,M,1961-01-07,John Thune,sen,Republican,2017-01-03,2023-01-03,"[115, 116, 117]",south dakota
-paul,tonko,M,1949-06-18,Paul Tonko,rep,Democrat,2021-01-03,2023-01-03,[117],new york
-michael,turner,M,1960-01-11,Michael R. Turner,rep,Republican,2021-01-03,2023-01-03,[117],ohio
 chris,van hollen,M,1959-01-10,Chris Van Hollen,sen,Democrat,2017-01-03,2023-01-03,"[115, 116, 117]",maryland
-nydia,velázquez,F,1953-03-28,Nydia M. Velázquez,rep,Democrat,2021-01-03,2023-01-03,[117],new york
-tim,walberg,M,1951-04-12,Tim Walberg,rep,Republican,2021-01-03,2023-01-03,[117],michigan
-debbie,wasserman schultz,F,1966-09-27,Debbie Wasserman Schultz,rep,Democrat,2021-01-03,2023-01-03,[117],florida
-maxine,waters,F,1938-08-15,Maxine Waters,rep,Democrat,2021-01-03,2023-01-03,[117],california
-daniel,webster,M,1949-04-27,Daniel Webster,rep,Republican,2021-01-03,2023-01-03,[117],florida
 peter,welch,M,1947-05-02,Peter Welch,rep,Democrat,2021-01-03,2023-01-03,[117],vermont
-joe,wilson,M,1947-07-31,Joe Wilson,rep,Republican,2021-01-03,2023-01-03,[117],south carolina
-frederica,wilson,F,1942-11-05,Frederica S. Wilson,rep,Democrat,2021-01-03,2023-01-03,[117],florida
-robert,wittman,M,1959-02-03,Robert J. Wittman,rep,Republican,2021-01-03,2023-01-03,[117],virginia
-steve,womack,M,1957-02-18,Steve Womack,rep,Republican,2021-01-03,2023-01-03,[117],arkansas
 ron,wyden,M,1949-05-03,Ron Wyden,sen,Democrat,2017-01-03,2023-01-03,"[115, 116, 117]",oregon
 todd,young,M,1972-08-24,Todd Young,sen,Republican,2017-01-03,2023-01-03,"[115, 116, 117]",indiana
-mark,amodei,M,1958-06-12,Mark E. Amodei,rep,Republican,2021-01-03,2023-01-03,[117],nevada
-suzanne,bonamici,F,1954-10-14,Suzanne Bonamici,rep,Democrat,2021-01-03,2023-01-03,[117],oregon
-suzan,delbene,F,1962-02-17,Suzan K. DelBene,rep,Democrat,2021-01-03,2023-01-03,[117],washington
-thomas,massie,M,1971-01-13,Thomas Massie,rep,Republican,2021-01-03,2023-01-03,[117],kentucky
 brian,schatz,M,1972-10-20,Brian Schatz,sen,Democrat,2017-01-03,2023-01-03,"[115, 116, 117]",hawaii
-bill,foster,M,1955-10-07,Bill Foster,rep,Democrat,2021-01-03,2023-01-03,[117],illinois
-dina,titus,F,1950-05-23,Dina Titus,rep,Democrat,2021-01-03,2023-01-03,[117],nevada
 tom,cotton,M,1977-05-13,Tom Cotton,sen,Republican,2021-01-03,2027-01-03,"[117, 118, 119]",arkansas
-kyrsten,sinema,F,1976-07-12,Kyrsten Sinema,sen,Independent,2019-01-03,2025-01-03,"[116, 117, 118]",arizona
-doug,lamalfa,M,1960-07-02,Doug LaMalfa,rep,Republican,2021-01-03,2023-01-03,[117],california
-jared,huffman,M,1964-02-18,Jared Huffman,rep,Democrat,2021-01-03,2023-01-03,[117],california
-ami,bera,M,1965-03-02,Ami Bera,rep,Democrat,2021-01-03,2023-01-03,[117],california
-eric,swalwell,M,1980-11-16,Eric Swalwell,rep,Democrat,2021-01-03,2023-01-03,[117],california
-julia,brownley,F,1952-08-28,Julia Brownley,rep,Democrat,2021-01-03,2023-01-03,[117],california
-tony,cárdenas,M,1963-03-31,Tony Cárdenas,rep,Democrat,2021-01-03,2023-01-03,[117],california
-raul,ruiz,M,1972-08-25,Raul Ruiz,rep,Democrat,2021-01-03,2023-01-03,[117],california
-mark,takano,M,1960-12-10,Mark Takano,rep,Democrat,2021-01-03,2023-01-03,[117],california
-juan,vargas,M,1961-03-07,Juan Vargas,rep,Democrat,2021-01-03,2023-01-03,[117],california
-scott,peters,M,1958-06-17,Scott H. Peters,rep,Democrat,2021-01-03,2023-01-03,[117],california
-lois,frankel,F,1948-05-16,Lois Frankel,rep,Democrat,2021-01-03,2023-01-03,[117],florida
 tammy,duckworth,F,1968-03-12,Tammy Duckworth,sen,Democrat,2017-01-03,2023-01-03,"[115, 116, 117]",illinois
-garland,barr,M,1973-07-24,Andy Barr,rep,Republican,2021-01-03,2023-01-03,[117],kentucky
 elizabeth,warren,F,1949-06-22,Elizabeth Warren,sen,Democrat,2019-01-03,2025-01-03,"[116, 117, 118]",massachusetts
 angus,king,M,1944-03-31,"Angus S. King, Jr.",sen,Independent,2019-01-03,2025-01-03,"[116, 117, 118]",maine
-daniel,kildee,M,1958-08-11,Daniel T. Kildee,rep,Democrat,2021-01-03,2023-01-03,[117],michigan
-ann,wagner,F,1962-09-13,Ann Wagner,rep,Republican,2021-01-03,2023-01-03,[117],missouri
 steve,daines,M,1962-08-20,Steve Daines,sen,Republican,2021-01-03,2027-01-03,"[117, 118, 119]",montana
-richard,hudson,M,1971-11-04,Richard Hudson,rep,Republican,2021-01-03,2023-01-03,[117],north carolina
 kevin,cramer,M,1961-01-21,Kevin Cramer,sen,Republican,2019-01-03,2025-01-03,"[116, 117, 118]",north dakota
 deb,fischer,F,1951-03-01,Deb Fischer,sen,Republican,2019-01-03,2025-01-03,"[116, 117, 118]",nebraska
-ann,kuster,F,1956-09-05,Ann M. Kuster,rep,Democrat,2021-01-03,2023-01-03,[117],new hampshire
-grace,meng,F,1975-10-01,Grace Meng,rep,Democrat,2021-01-03,2023-01-03,[117],new york
-hakeem,jeffries,M,1970-08-04,Hakeem S. Jeffries,rep,Democrat,2021-01-03,2023-01-03,[117],new york
-brad,wenstrup,M,1958-06-17,Brad R. Wenstrup,rep,Republican,2021-01-03,2023-01-03,[117],ohio
-joyce,beatty,F,1950-03-12,Joyce Beatty,rep,Democrat,2021-01-03,2023-01-03,[117],ohio
-david,joyce,M,1957-03-17,David P. Joyce,rep,Republican,2021-01-03,2023-01-03,[117],ohio
 markwayne,mullin,M,1977-07-26,Markwayne Mullin,rep,Republican,2021-01-03,2023-01-03,[117],oklahoma
-scott,perry,M,1962-05-27,Scott Perry,rep,Republican,2021-01-03,2023-01-03,[117],pennsylvania
-matthew,cartwright,M,1961-05-01,Matt Cartwright,rep,Democrat,2021-01-03,2023-01-03,[117],pennsylvania
 ted,cruz,M,1970-12-22,Ted Cruz,sen,Republican,2019-01-03,2025-01-03,"[116, 117, 118]",texas
-randy,weber,M,1953-07-02,"Randy K. Weber, Sr.",rep,Republican,2021-01-03,2023-01-03,[117],texas
-joaquin,castro,M,1974-09-16,Joaquin Castro,rep,Democrat,2021-01-03,2023-01-03,[117],texas
-roger,williams,M,1949-09-13,Roger Williams,rep,Republican,2021-01-03,2023-01-03,[117],texas
-marc,veasey,M,1971-01-03,Marc A. Veasey,rep,Democrat,2021-01-03,2023-01-03,[117],texas
 timothy,kaine,M,1958-02-26,Tim Kaine,sen,Democrat,2019-01-03,2025-01-03,"[116, 117, 118]",virginia
-derek,kilmer,M,1974-01-01,Derek Kilmer,rep,Democrat,2021-01-03,2023-01-03,[117],washington
-mark,pocan,M,1964-08-14,Mark Pocan,rep,Democrat,2021-01-03,2023-01-03,[117],wisconsin
-robin,kelly,F,1956-04-30,Robin L. Kelly,rep,Democrat,2021-01-03,2023-01-03,[117],illinois
-jason,smith,M,1980-06-16,Jason Smith,rep,Republican,2021-01-03,2023-01-03,[117],missouri
 cory,booker,M,1969-04-27,Cory A. Booker,sen,Democrat,2021-01-03,2027-01-03,"[117, 118, 119]",new jersey
-katherine,clark,F,1963-07-17,Katherine M. Clark,rep,Democrat,2021-01-03,2023-01-03,[117],massachusetts
-donald,norcross,M,1958-12-13,Donald Norcross,rep,Democrat,2021-01-03,2023-01-03,[117],new jersey
-alma,adams,F,1946-05-27,Alma S. Adams,rep,Democrat,2021-01-03,2023-01-03,[117],north carolina
-gary,palmer,M,1954-05-14,Gary J. Palmer,rep,Republican,2021-01-03,2023-01-03,[117],alabama
-j.,hill,M,1956-12-05,J. French Hill,rep,Republican,2021-01-03,2023-01-03,[117],arkansas
-bruce,westerman,M,1967-11-18,Bruce Westerman,rep,Republican,2021-01-03,2023-01-03,[117],arkansas
-ruben,gallego,M,1979-11-20,Ruben Gallego,rep,Democrat,2021-01-03,2023-01-03,[117],arizona
-mark,desaulnier,M,1952-03-31,Mark DeSaulnier,rep,Democrat,2021-01-03,2023-01-03,[117],california
-pete,aguilar,M,1979-06-19,Pete Aguilar,rep,Democrat,2021-01-03,2023-01-03,[117],california
-ted,lieu,M,1969-03-29,Ted Lieu,rep,Democrat,2021-01-03,2023-01-03,[117],california
-norma,torres,F,1965-04-04,Norma J. Torres,rep,Democrat,2021-01-03,2023-01-03,[117],california
-earl,carter,M,1957-09-06,"Earl L. ""Buddy"" Carter",rep,Republican,2021-01-03,2023-01-03,[117],georgia
-barry,loudermilk,M,1963-12-22,Barry Loudermilk,rep,Republican,2021-01-03,2023-01-03,[117],georgia
-rick,allen,M,1951-11-07,Rick W. Allen,rep,Republican,2021-01-03,2023-01-03,[117],georgia
-mike,bost,M,1960-12-30,Mike Bost,rep,Republican,2021-01-03,2023-01-03,[117],illinois
-garret,graves,M,1972-01-31,Garret Graves,rep,Republican,2021-01-03,2023-01-03,[117],louisiana
-seth,moulton,M,1978-10-24,Seth Moulton,rep,Democrat,2021-01-03,2023-01-03,[117],massachusetts
-john,moolenaar,M,1961-05-08,John R. Moolenaar,rep,Republican,2021-01-03,2023-01-03,[117],michigan
-debbie,dingell,F,1953-11-23,Debbie Dingell,rep,Democrat,2021-01-03,2023-01-03,[117],michigan
-tom,emmer,M,1961-03-03,Tom Emmer,rep,Republican,2021-01-03,2023-01-03,[117],minnesota
-david,rouzer,M,1972-02-16,David Rouzer,rep,Republican,2021-01-03,2023-01-03,[117],north carolina
-bonnie,watson coleman,F,1945-02-06,Bonnie Watson Coleman,rep,Democrat,2021-01-03,2023-01-03,[117],new jersey
-elise,stefanik,F,1984-07-02,Elise M. Stefanik,rep,Republican,2021-01-03,2023-01-03,[117],new york
-brendan,boyle,M,1977-02-06,Brendan F. Boyle,rep,Democrat,2021-01-03,2023-01-03,[117],pennsylvania
-brian,babin,M,1948-03-23,Brian Babin,rep,Republican,2021-01-03,2023-01-03,[117],texas
-donald,beyer,M,1950-06-20,"Donald S. Beyer, Jr.",rep,Democrat,2021-01-03,2023-01-03,[117],virginia
-stacey,plaskett,F,1966-05-13,Stacey E. Plaskett,rep,Democrat,2021-01-03,2023-01-03,[117],vi
-dan,newhouse,M,1955-07-10,Dan Newhouse,rep,Republican,2021-01-03,2023-01-03,[117],washington
-glenn,grothman,M,1955-07-03,Glenn Grothman,rep,Republican,2021-01-03,2023-01-03,[117],wisconsin
-alexander,mooney,M,1971-06-05,Alexander X. Mooney,rep,Republican,2021-01-03,2023-01-03,[117],west virginia
-aumua amata,radewagen,F,1947-12-29,Aumua Amata Coleman Radewagen,rep,Republican,2021-01-03,2023-01-03,[117],as
 dan,sullivan,M,1964-11-13,Dan Sullivan,sen,Republican,2021-01-03,2027-01-03,"[117, 118, 119]",alaska
 joni,ernst,F,1970-07-01,Joni Ernst,sen,Republican,2021-01-03,2027-01-03,"[117, 118, 119]",iowa
 thom,tillis,M,1960-08-30,Thom Tillis,sen,Republican,2021-01-03,2027-01-03,"[117, 118, 119]",north carolina
 mike,rounds,M,1954-10-24,Mike Rounds,sen,Republican,2021-01-03,2027-01-03,"[117, 118, 119]",south dakota
-trent,kelly,M,1966-03-01,Trent Kelly,rep,Republican,2021-01-03,2023-01-03,[117],mississippi
-darin,lahood,M,1968-07-05,Darin LaHood,rep,Republican,2021-01-03,2023-01-03,[117],illinois
-warren,davidson,M,1970-03-01,Warren Davidson,rep,Republican,2021-01-03,2023-01-03,[117],ohio
-james,comer,M,1972-08-19,James Comer,rep,Republican,2021-01-03,2023-01-03,[117],kentucky
-dwight,evans,M,1954-05-16,Dwight Evans,rep,Democrat,2021-01-03,2023-01-03,[117],pennsylvania
 john,kennedy,M,1951-11-21,John Kennedy,sen,Republican,2017-01-03,2023-01-03,"[115, 116, 117]",louisiana
 margaret,hassan,F,1958-02-27,Margaret Wood Hassan,sen,Democrat,2017-01-03,2023-01-03,"[115, 116, 117]",new hampshire
 catherine,cortez masto,F,1964-03-29,Catherine Cortez Masto,sen,Democrat,2017-01-03,2023-01-03,"[115, 116, 117]",nevada
-bradley,schneider,M,1961-08-20,Bradley Scott Schneider,rep,Democrat,2021-01-03,2023-01-03,[117],illinois
-andy,biggs,M,1958-11-07,Andy Biggs,rep,Republican,2021-01-03,2023-01-03,[117],arizona
-ro,khanna,M,1976-09-13,Ro Khanna,rep,Democrat,2021-01-03,2023-01-03,[117],california
-jimmy,panetta,M,1969-10-01,Jimmy Panetta,rep,Democrat,2021-01-03,2023-01-03,[117],california
-salud,carbajal,M,1964-11-18,Salud O. Carbajal,rep,Democrat,2021-01-03,2023-01-03,[117],california
-nanette,barragán,F,1976-09-15,Nanette Diaz Barragán,rep,Democrat,2021-01-03,2023-01-03,[117],california
-j.,correa,M,1958-01-24,J. Luis Correa,rep,Democrat,2021-01-03,2023-01-03,[117],california
-lisa,blunt rochester,F,1962-02-10,Lisa Blunt Rochester,rep,Democrat,2021-01-03,2023-01-03,[117],delaware
-neal,dunn,M,1953-02-16,Neal P. Dunn,rep,Republican,2021-01-03,2023-01-03,[117],florida
-john,rutherford,M,1952-09-02,John H. Rutherford,rep,Republican,2021-01-03,2023-01-03,[117],florida
-darren,soto,M,1978-02-25,Darren Soto,rep,Democrat,2021-01-03,2023-01-03,[117],florida
-brian,mast,M,1980-07-10,Brian J. Mast,rep,Republican,2021-01-03,2023-01-03,[117],florida
-a.,ferguson,M,1966-11-15,A. Drew Ferguson IV,rep,Republican,2021-01-03,2023-01-03,[117],georgia
-raja,krishnamoorthi,M,1973-07-19,Raja Krishnamoorthi,rep,Democrat,2021-01-03,2023-01-03,[117],illinois
-jim,banks,M,1979-07-16,Jim Banks,rep,Republican,2021-01-03,2023-01-03,[117],indiana
 roger,marshall,M,1960-08-09,Roger Marshall,sen,Republican,2021-01-03,2027-01-03,"[117, 118, 119]",kansas
-clay,higgins,M,1961-08-24,Clay Higgins,rep,Republican,2021-01-03,2023-01-03,[117],louisiana
-mike,johnson,M,1972-01-30,Mike Johnson,rep,Republican,2021-01-03,2023-01-03,[117],louisiana
-jamie,raskin,M,1962-12-13,Jamie Raskin,rep,Democrat,2021-01-03,2023-01-03,[117],maryland
-jack,bergman,M,1947-02-02,Jack Bergman,rep,Republican,2021-01-03,2023-01-03,[117],michigan
 ted,budd,M,1971-10-21,Ted Budd,rep,Republican,2021-01-03,2023-01-03,[117],north carolina
-don,bacon,M,1963-08-16,Don Bacon,rep,Republican,2021-01-03,2023-01-03,[117],nebraska
-josh,gottheimer,M,1975-03-08,Josh Gottheimer,rep,Democrat,2021-01-03,2023-01-03,[117],new jersey
 jacky,rosen,F,1957-08-02,Jacky Rosen,sen,Democrat,2019-01-03,2025-01-03,"[116, 117, 118]",nevada
-adriano,espaillat,M,1954-09-27,Adriano Espaillat,rep,Democrat,2021-01-03,2023-01-03,[117],new york
-brian,fitzpatrick,M,1973-12-17,Brian K. Fitzpatrick,rep,Republican,2021-01-03,2023-01-03,[117],pennsylvania
-lloyd,smucker,M,1964-01-23,Lloyd Smucker,rep,Republican,2021-01-03,2023-01-03,[117],pennsylvania
-jenniffer,gonzález-colón,F,1976-08-05,Jenniffer González-Colón,rep,Republican,2021-01-03,2023-01-03,[117],pr
-david,kustoff,M,1966-10-08,David Kustoff,rep,Republican,2021-01-03,2023-01-03,[117],tennessee
-vicente,gonzalez,M,1967-09-04,Vicente Gonzalez,rep,Democrat,2021-01-03,2023-01-03,[117],texas
-jodey,arrington,M,1972-03-09,Jodey C. Arrington,rep,Republican,2021-01-03,2023-01-03,[117],texas
-pramila,jayapal,F,1965-09-21,Pramila Jayapal,rep,Democrat,2021-01-03,2023-01-03,[117],washington
-ron,estes,M,1956-07-19,Ron Estes,rep,Republican,2021-01-03,2023-01-03,[117],kansas
-ralph,norman,M,1953-06-20,Ralph Norman,rep,Republican,2021-01-03,2023-01-03,[117],south carolina
-jimmy,gomez,M,1974-11-25,Jimmy Gomez,rep,Democrat,2021-01-03,2023-01-03,[117],california
-john,curtis,M,1960-05-10,John R. Curtis,rep,Republican,2021-01-03,2023-01-03,[117],utah
 tina,smith,F,1958-03-04,Tina Smith,sen,Democrat,2021-01-03,2027-01-03,"[117, 118, 119]",minnesota
 cindy,hyde-smith,F,1959-05-10,Cindy Hyde-Smith,sen,Republican,2021-01-03,2027-01-03,"[117, 118, 119]",mississippi
-debbie,lesko,F,1958-11-14,Debbie Lesko,rep,Republican,2021-01-03,2023-01-03,[117],arizona
-michael,cloud,M,1975-05-13,Michael Cloud,rep,Republican,2021-01-03,2023-01-03,[117],texas
-troy,balderson,M,1962-01-16,Troy Balderson,rep,Republican,2021-01-03,2023-01-03,[117],ohio
-kevin,hern,M,1961-12-04,Kevin Hern,rep,Republican,2021-01-03,2023-01-03,[117],oklahoma
-joseph,morelle,M,1957-04-29,Joseph D. Morelle,rep,Democrat,2021-01-03,2023-01-03,[117],new york
-mary,scanlon,F,1959-08-30,Mary Gay Scanlon,rep,Democrat,2021-01-03,2023-01-03,[117],pennsylvania
-susan,wild,F,1957-06-07,Susan Wild,rep,Democrat,2021-01-03,2023-01-03,[117],pennsylvania
-ed,case,M,1952-09-27,Ed Case,rep,Democrat,2021-01-03,2023-01-03,[117],hawaii
-steven,horsford,M,1973-04-29,Steven Horsford,rep,Democrat,2021-01-03,2023-01-03,[117],nevada
-greg,stanton,M,1970-03-08,Greg Stanton,rep,Democrat,2021-01-03,2023-01-03,[117],arizona
-josh,harder,M,1986-08-01,Josh Harder,rep,Democrat,2021-01-03,2023-01-03,[117],california
-katie,porter,F,1974-01-03,Katie Porter,rep,Democrat,2021-01-03,2023-01-03,[117],california
-mike,levin,M,1978-10-28,Mike Levin,rep,Democrat,2021-01-03,2023-01-03,[117],california
-joe,neguse,M,1984-05-13,Joe Neguse,rep,Democrat,2021-01-03,2023-01-03,[117],colorado
-jason,crow,M,1979-03-15,Jason Crow,rep,Democrat,2021-01-03,2023-01-03,[117],colorado
-jahana,hayes,F,1973-03-08,Jahana Hayes,rep,Democrat,2021-01-03,2023-01-03,[117],connecticut
-michael,waltz,M,1974-01-31,Michael Waltz,rep,Republican,2021-01-03,2023-01-03,[117],florida
-w.,steube,M,1978-05-19,W. Gregory Steube,rep,Republican,2021-01-03,2023-01-03,[117],florida
-lucy,mcbath,F,1960-06-01,Lucy McBath,rep,Democrat,2021-01-03,2023-01-03,[117],georgia
-russ,fulcher,M,1973-07-19,Russ Fulcher,rep,Republican,2021-01-03,2023-01-03,[117],idaho
-jesús,garcía,M,1956-04-12,"Jesús G. ""Chuy"" García",rep,Democrat,2021-01-03,2023-01-03,[117],illinois
-sean,casten,M,1971-11-23,Sean Casten,rep,Democrat,2021-01-03,2023-01-03,[117],illinois
-lauren,underwood,F,1986-10-04,Lauren Underwood,rep,Democrat,2021-01-03,2023-01-03,[117],illinois
-james,baird,M,1945-06-04,James R. Baird,rep,Republican,2021-01-03,2023-01-03,[117],indiana
-greg,pence,M,1956-11-14,Greg Pence,rep,Republican,2021-01-03,2023-01-03,[117],indiana
-sharice,davids,F,1980-05-22,Sharice Davids,rep,Democrat,2021-01-03,2023-01-03,[117],kansas
-lori,trahan,F,1973-10-27,Lori Trahan,rep,Democrat,2021-01-03,2023-01-03,[117],massachusetts
-ayanna,pressley,F,1974-02-03,Ayanna Pressley,rep,Democrat,2021-01-03,2023-01-03,[117],massachusetts
-david,trone,M,1955-09-21,David J. Trone,rep,Democrat,2021-01-03,2023-01-03,[117],maryland
-elissa,slotkin,F,1976-07-10,Elissa Slotkin,rep,Democrat,2021-01-03,2023-01-03,[117],michigan
-haley,stevens,F,1983-06-24,Haley M. Stevens,rep,Democrat,2021-01-03,2023-01-03,[117],michigan
-rashida,tlaib,F,1976-07-24,Rashida Tlaib,rep,Democrat,2021-01-03,2023-01-03,[117],michigan
-angie,craig,F,1972-02-14,Angie Craig,rep,Democrat,2021-01-03,2023-01-03,[117],minnesota
-dean,phillips,M,1969-01-20,Dean Phillips,rep,Democrat,2021-01-03,2023-01-03,[117],minnesota
-ilhan,omar,F,1981-10-04,Ilhan Omar,rep,Democrat,2021-01-03,2023-01-03,[117],minnesota
-pete,stauber,M,1966-05-10,Pete Stauber,rep,Republican,2021-01-03,2023-01-03,[117],minnesota
-michael,guest,M,1970-02-04,Michael Guest,rep,Republican,2021-01-03,2023-01-03,[117],mississippi
-kelly,armstrong,M,1976-10-08,Kelly Armstrong,rep,Republican,2021-01-03,2023-01-03,[117],north dakota
-chris,pappas,M,1980-06-04,Chris Pappas,rep,Democrat,2021-01-03,2023-01-03,[117],new hampshire
-jefferson,van drew,M,1953-02-23,Jefferson Van Drew,rep,Republican,2021-01-03,2023-01-03,[117],new jersey
-andy,kim,M,1982-07-12,Andy Kim,rep,Democrat,2021-01-03,2023-01-03,[117],new jersey
-mikie,sherrill,F,1972-01-19,Mikie Sherrill,rep,Democrat,2021-01-03,2023-01-03,[117],new jersey
-susie,lee,F,1966-11-07,Susie Lee,rep,Democrat,2021-01-03,2023-01-03,[117],nevada
-alexandria,ocasio-cortez,F,1989-10-13,Alexandria Ocasio-Cortez,rep,Democrat,2021-01-03,2023-01-03,[117],new york
-madeleine,dean,F,1959-06-06,Madeleine Dean,rep,Democrat,2021-01-03,2023-01-03,[117],pennsylvania
-chrissy,houlahan,F,1967-06-05,Chrissy Houlahan,rep,Democrat,2021-01-03,2023-01-03,[117],pennsylvania
-daniel,meuser,M,1964-02-10,Daniel Meuser,rep,Republican,2021-01-03,2023-01-03,[117],pennsylvania
-john,joyce,M,1957-02-08,John Joyce,rep,Republican,2021-01-03,2023-01-03,[117],pennsylvania
-guy,reschenthaler,M,1983-04-17,Guy Reschenthaler,rep,Republican,2021-01-03,2023-01-03,[117],pennsylvania
-william,timmons,M,1984-04-30,William R. Timmons IV,rep,Republican,2021-01-03,2023-01-03,[117],south carolina
-dusty,johnson,M,1976-09-30,Dusty Johnson,rep,Republican,2021-01-03,2023-01-03,[117],south dakota
-tim,burchett,M,1964-08-25,Tim Burchett,rep,Republican,2021-01-03,2023-01-03,[117],tennessee
-john,rose,M,1965-02-23,John W. Rose,rep,Republican,2021-01-03,2023-01-03,[117],tennessee
-mark,green,M,1964-11-08,Mark E. Green,rep,Republican,2021-01-03,2023-01-03,[117],tennessee
-dan,crenshaw,M,1984-03-14,Dan Crenshaw,rep,Republican,2021-01-03,2023-01-03,[117],texas
-lance,gooden,M,1982-12-01,Lance Gooden,rep,Republican,2021-01-03,2023-01-03,[117],texas
-lizzie,fletcher,F,1975-02-13,Lizzie Fletcher,rep,Democrat,2021-01-03,2023-01-03,[117],texas
-veronica,escobar,F,1969-09-15,Veronica Escobar,rep,Democrat,2021-01-03,2023-01-03,[117],texas
-chip,roy,M,1972-08-07,Chip Roy,rep,Republican,2021-01-03,2023-01-03,[117],texas
-sylvia,garcia,F,1950-09-06,Sylvia R. Garcia,rep,Democrat,2021-01-03,2023-01-03,[117],texas
-colin,allred,M,1983-04-15,Colin Z. Allred,rep,Democrat,2021-01-03,2023-01-03,[117],texas
-ben,cline,M,1972-02-29,Ben Cline,rep,Republican,2021-01-03,2023-01-03,[117],virginia
-abigail,spanberger,F,1979-08-07,Abigail Davis Spanberger,rep,Democrat,2021-01-03,2023-01-03,[117],virginia
-jennifer,wexton,F,1968-05-27,Jennifer Wexton,rep,Democrat,2021-01-03,2023-01-03,[117],virginia
-kim,schrier,F,1968-08-23,Kim Schrier,rep,Democrat,2021-01-03,2023-01-03,[117],washington
-bryan,steil,M,1981-03-30,Bryan Steil,rep,Republican,2021-01-03,2023-01-03,[117],wisconsin
-carol,miller,F,1950-11-04,Carol D. Miller,rep,Republican,2021-01-03,2023-01-03,[117],west virginia
 rick,scott,M,1952-12-01,Rick Scott,sen,Republican,2019-01-08,2025-01-03,"[116, 117, 118]",florida
-mike,braun,M,1954-03-24,Mike Braun,sen,Republican,2019-01-03,2025-01-03,"[116, 117, 118]",indiana
 joshua,hawley,M,1979-12-31,Josh Hawley,sen,Republican,2019-01-03,2025-01-03,"[116, 117, 118]",missouri
-mitt,romney,M,1947-03-12,Mitt Romney,sen,Republican,2019-01-03,2025-01-03,"[116, 117, 118]",utah
-jared,golden,M,1982-07-25,Jared F. Golden,rep,Democrat,2021-01-03,2023-01-03,[117],maine
-dan,bishop,M,1964-07-01,Dan Bishop,rep,Republican,2021-01-03,2023-01-03,[117],north carolina
-gregory,murphy,M,1963-03-05,Gregory F. Murphy,rep,Republican,2021-01-03,2023-01-03,[117],north carolina
-kweisi,mfume,M,1948-10-24,Kweisi Mfume,rep,Democrat,2021-01-03,2023-01-03,[117],maryland
-thomas,tiffany,M,1957-12-30,Thomas P. Tiffany,rep,Republican,2021-01-03,2023-01-03,[117],wisconsin
-mike,garcia,M,1976-04-24,Mike Garcia,rep,Republican,2021-01-03,2023-01-03,[117],california
 mark,kelly,M,1964-02-21,Mark Kelly,sen,Democrat,2020-12-02,2023-01-03,"[116, 117]",arizona
 cynthia,lummis,F,1954-09-10,Cynthia M. Lummis,sen,Republican,2021-01-03,2027-01-03,"[117, 118, 119]",wyoming
-darrell,issa,M,1953-11-01,Darrell Issa,rep,Republican,2021-01-03,2023-01-03,[117],california
-pete,sessions,M,1955-03-22,Pete Sessions,rep,Republican,2021-01-03,2023-01-03,[117],texas
-david,valadao,M,1977-04-14,David G. Valadao,rep,Republican,2021-01-03,2023-01-03,[117],california
 tommy,tuberville,M,1954-09-18,Tommy Tuberville,sen,Republican,2021-01-03,2027-01-03,"[117, 118, 119]",alabama
 john,hickenlooper,M,1952-02-07,John W. Hickenlooper,sen,Democrat,2021-01-03,2027-01-03,"[117, 118, 119]",colorado
 bill,hagerty,M,1959-08-14,Bill Hagerty,sen,Republican,2021-01-03,2027-01-03,"[117, 118, 119]",tennessee
-jerry,carl,M,1958-06-17,Jerry L. Carl,rep,Republican,2021-01-03,2023-01-03,[117],alabama
-barry,moore,M,1966-09-26,Barry Moore,rep,Republican,2021-01-03,2023-01-03,[117],alabama
-jay,obernolte,M,1970-08-18,Jay Obernolte,rep,Republican,2021-01-03,2023-01-03,[117],california
-young,kim,F,1962-10-18,Young Kim,rep,Republican,2021-01-03,2023-01-03,[117],california
-michelle,steel,F,1955-06-21,Michelle Steel,rep,Republican,2021-01-03,2023-01-03,[117],california
-sara,jacobs,F,1989-02-01,Sara Jacobs,rep,Democrat,2021-01-03,2023-01-03,[117],california
-lauren,boebert,F,1986-12-15,Lauren Boebert,rep,Republican,2021-01-03,2023-01-03,[117],colorado
-katherine,cammack,F,1988-02-16,Kat Cammack,rep,Republican,2021-01-03,2023-01-03,[117],florida
-c.,franklin,M,1964-08-23,Scott Franklin,rep,Republican,2021-01-03,2023-01-03,[117],florida
-byron,donalds,M,1978-10-28,Byron Donalds,rep,Republican,2021-01-03,2023-01-03,[117],florida
-carlos,gimenez,M,1954-01-17,Carlos A. Gimenez,rep,Republican,2021-01-03,2023-01-03,[117],florida
-maria,salazar,F,1961-11-01,Maria Elvira Salazar,rep,Republican,2021-01-03,2023-01-03,[117],florida
-nikema,williams,F,1978-07-30,Nikema Williams,rep,Democrat,2021-01-03,2023-01-03,[117],georgia
-andrew,clyde,M,1963-11-22,Andrew S. Clyde,rep,Republican,2021-01-03,2023-01-03,[117],georgia
-marjorie,greene,F,1974-05-27,Marjorie Taylor Greene,rep,Republican,2021-01-03,2023-01-03,[117],georgia
-ashley,hinson,F,1983-06-27,Ashley Hinson,rep,Republican,2021-01-03,2023-01-03,[117],iowa
-mariannette,miller-meeks,F,1955-09-06,Mariannette Miller-Meeks,rep,Republican,2021-01-03,2023-01-03,[117],iowa
-randy,feenstra,M,1969-01-14,Randy Feenstra,rep,Republican,2021-01-03,2023-01-03,[117],iowa
-mary,miller,F,1959-08-27,Mary E. Miller,rep,Republican,2021-01-03,2023-01-03,[117],illinois
-frank,mrvan,M,1969-04-16,Frank J. Mrvan,rep,Democrat,2021-01-03,2023-01-03,[117],indiana
-victoria,spartz,F,1978-10-06,Victoria Spartz,rep,Republican,2021-01-03,2023-01-03,[117],indiana
-tracey,mann,M,1976-12-17,Tracey Mann,rep,Republican,2021-01-03,2023-01-03,[117],kansas
-jacob,laturner,M,1988-02-17,Jake LaTurner,rep,Republican,2021-01-03,2023-01-03,[117],kansas
-jake,auchincloss,M,1988-01-29,Jake Auchincloss,rep,Democrat,2021-01-03,2023-01-03,[117],massachusetts
-lisa,mcclain,F,1966-04-07,Lisa C. McClain,rep,Republican,2021-01-03,2023-01-03,[117],michigan
-michelle,fischbach,F,1965-11-03,Michelle Fischbach,rep,Republican,2021-01-03,2023-01-03,[117],minnesota
-cori,bush,F,1976-07-21,Cori Bush,rep,Democrat,2021-01-03,2023-01-03,[117],missouri
-matthew,rosendale,M,1960-07-07,"Matthew M. Rosendale, Sr.",rep,Republican,2021-01-03,2023-01-03,[117],montana
-deborah,ross,F,1963-06-20,Deborah K. Ross,rep,Democrat,2021-01-03,2023-01-03,[117],north carolina
-kathy,manning,F,1956-12-03,Kathy E. Manning,rep,Democrat,2021-01-03,2023-01-03,[117],north carolina
-teresa,leger fernandez,F,1959-07-01,Teresa Leger Fernandez,rep,Democrat,2021-01-03,2023-01-03,[117],new mexico
-andrew,garbarino,M,1984-09-27,Andrew R. Garbarino,rep,Republican,2021-01-03,2023-01-03,[117],new york
-nicole,malliotakis,F,1980-11-11,Nicole Malliotakis,rep,Republican,2021-01-03,2023-01-03,[117],new york
-ritchie,torres,M,1988-03-12,Ritchie Torres,rep,Democrat,2021-01-03,2023-01-03,[117],new york
-jamaal,bowman,M,1976-04-01,Jamaal Bowman,rep,Democrat,2021-01-03,2023-01-03,[117],new york
-stephanie,bice,F,1973-11-11,Stephanie I. Bice,rep,Republican,2021-01-03,2023-01-03,[117],oklahoma
-cliff,bentz,M,1952-01-12,Cliff Bentz,rep,Republican,2021-01-03,2023-01-03,[117],oregon
-nancy,mace,F,1977-12-04,Nancy Mace,rep,Republican,2021-01-03,2023-01-03,[117],south carolina
-diana,harshbarger,F,1960-01-01,Diana Harshbarger,rep,Republican,2021-01-03,2023-01-03,[117],tennessee
-patrick,fallon,M,1967-12-19,Pat Fallon,rep,Republican,2021-01-03,2023-01-03,[117],texas
-august,pfluger,M,1978-12-28,August Pfluger,rep,Republican,2021-01-03,2023-01-03,[117],texas
-ronny,jackson,M,1967-05-04,Ronny Jackson,rep,Republican,2021-01-03,2023-01-03,[117],texas
-troy,nehls,M,1968-04-07,Troy E. Nehls,rep,Republican,2021-01-03,2023-01-03,[117],texas
-ernest,gonzales,M,1980-10-10,Tony Gonzales,rep,Republican,2021-01-03,2023-01-03,[117],texas
-beth,van duyne,F,1970-11-16,Beth Van Duyne,rep,Republican,2021-01-03,2023-01-03,[117],texas
-blake,moore,M,1980-06-22,Blake D. Moore,rep,Republican,2021-01-03,2023-01-03,[117],utah
-clarence,owens,M,1951-08-02,Burgess Owens,rep,Republican,2021-01-03,2023-01-03,[117],utah
-robert,good,M,1965-09-11,Bob Good,rep,Republican,2021-01-03,2023-01-03,[117],virginia
-marilyn,strickland,F,1962-09-25,Marilyn Strickland,rep,Democrat,2021-01-03,2023-01-03,[117],washington
-scott,fitzgerald,M,1963-11-16,Scott Fitzgerald,rep,Republican,2021-01-03,2023-01-03,[117],wisconsin
 alejandro,padilla,M,1973-03-22,Alex Padilla,sen,Democrat,2022-12-22,2023-01-03,[117],california
 jon,ossoff,M,1987-02-16,Jon Ossoff,sen,Democrat,2021-01-20,2027-01-03,"[117, 118, 119]",georgia
 raphael,warnock,M,1969-07-23,Raphael G. Warnock,sen,Democrat,2021-01-20,2023-01-03,[117],georgia
-claudia,tenney,F,1961-02-04,Claudia Tenney,rep,Republican,2021-02-11,2023-01-03,[117],new york
-julia,letlow,F,1981-03-16,Julia Letlow,rep,Republican,2021-04-14,2023-01-03,[117],louisiana
-troy,carter,M,1963-10-26,Troy A. Carter,rep,Democrat,2021-05-11,2023-01-03,[117],louisiana
-melanie,stansbury,F,1979-01-31,Melanie A. Stansbury,rep,Democrat,2021-06-14,2023-01-03,[117],new mexico
-jake,ellzey,M,1970-01-24,Jake Ellzey,rep,Republican,2021-07-30,2023-01-03,[117],texas
-shontel,brown,F,1975-06-24,Shontel M. Brown,rep,Democrat,2021-11-04,2023-01-03,[117],ohio
-mike,carey,M,1971-03-13,Mike Carey,rep,Republican,2021-11-04,2023-01-03,[117],ohio
-sheila,cherfilus-mccormick,F,1979-01-25,Sheila Cherfilus-McCormick,rep,Democrat,2022-01-18,2023-01-03,[117],florida
-mike,flood,M,1975-02-23,Mike Flood,rep,Republican,2022-07-12,2023-01-03,[117],nebraska
-brad,finstad,M,1976-05-30,Brad Finstad,rep,Republican,2022-08-12,2023-01-03,[117],minnesota
-mary,peltola,F,1973-08-31,Mary Sattler Peltola,rep,Democrat,2022-09-13,2023-01-03,[117],alaska
-patrick,ryan,M,1982-03-28,Patrick Ryan,rep,Democrat,2022-09-13,2023-01-03,[117],new york
-rudy,yakym,M,1984-02-24,Rudy Yakym III,rep,Republican,2022-11-14,2023-01-03,[117],indiana
-thomas,suozzi,M,1962-08-31,Thomas R. Suozzi,rep,Democrat,2021-01-03,2023-01-03,[117],new york
 cedric,richmond,M,1973-09-13,Cedric L. Richmond,rep,Democrat,2021-01-03,2021-01-15,[117],louisiana
 kamala,harris,F,1964-10-20,Kamala D. Harris,sen,Democrat,2017-01-03,2021-01-18,"[115, 116, 117]",california
 kelly,loeffler,F,1970-11-27,Kelly Loeffler,sen,Republican,2020-01-06,2021-01-20,"[116, 117]",georgia
@@ -556,3 +190,61 @@ sheila,jackson lee,F,1950-01-12,Sheila Jackson Lee,rep,Democrat,2021-01-03,2023-
 bill,pascrell,M,1937-01-25,"Bill Pascrell, Jr.",rep,Democrat,2021-01-03,2023-01-03,[117],new jersey
 robert,menendez,M,1954-01-01,Robert Menendez,sen,Democrat,2019-01-03,2024-08-20,"[116, 117, 118]",new jersey
 matt,gaetz,M,1982-05-07,Matt Gaetz,rep,Republican,2021-01-03,2023-01-03,[117],florida
+kelly,armstrong,M,1976-10-08,Kelly Armstrong,rep,Republican,2021-01-03,2023-01-03,[117],north dakota
+sherrod,brown,M,1952-11-09,Sherrod Brown,sen,Democrat,2019-01-03,2025-01-03,"[116, 117, 118]",ohio
+benjamin,cardin,M,1943-10-05,Benjamin L. Cardin,sen,Democrat,2019-01-03,2025-01-03,"[116, 117, 118]",maryland
+thomas,carper,M,1947-01-23,Thomas R. Carper,sen,Democrat,2019-01-03,2025-01-03,"[116, 117, 118]",delaware
+robert,casey,M,1960-04-13,"Robert P. Casey, Jr.",sen,Democrat,2019-01-03,2025-01-03,"[116, 117, 118]",pennsylvania
+debbie,stabenow,F,1950-04-29,Debbie Stabenow,sen,Democrat,2019-01-03,2025-01-03,"[116, 117, 118]",michigan
+jon,tester,M,1956-08-21,Jon Tester,sen,Democrat,2019-01-03,2025-01-03,"[116, 117, 118]",montana
+joe,manchin,M,1947-08-24,"Joe Manchin, III",sen,Independent,2019-01-03,2025-01-03,"[116, 117, 118]",west virginia
+earl,blumenauer,M,1948-08-16,Earl Blumenauer,rep,Democrat,2021-01-03,2023-01-03,[117],oregon
+larry,bucshon,M,1962-05-31,Larry Bucshon,rep,Republican,2021-01-03,2023-01-03,[117],indiana
+michael,burgess,M,1950-12-23,Michael C. Burgess,rep,Republican,2021-01-03,2023-01-03,[117],texas
+jeff,duncan,M,1966-01-07,Jeff Duncan,rep,Republican,2021-01-03,2023-01-03,[117],south carolina
+anna,eshoo,F,1942-12-13,Anna G. Eshoo,rep,Democrat,2021-01-03,2023-01-03,[117],california
+kay,granger,F,1943-01-18,Kay Granger,rep,Republican,2021-01-03,2023-01-03,[117],texas
+doug,lamborn,M,1954-05-24,Doug Lamborn,rep,Republican,2021-01-03,2023-01-03,[117],colorado
+barbara,lee,F,1946-07-16,Barbara Lee,rep,Democrat,2021-01-03,2023-01-03,[117],california
+blaine,luetkemeyer,M,1952-05-07,Blaine Luetkemeyer,rep,Republican,2021-01-03,2023-01-03,[117],missouri
+patrick,mchenry,M,1975-10-22,Patrick T. McHenry,rep,Republican,2021-01-03,2023-01-03,[117],north carolina
+cathy,mcmorris rodgers,F,1969-05-22,Cathy McMorris Rodgers,rep,Republican,2021-01-03,2023-01-03,[117],washington
+grace,napolitano,F,1936-12-04,Grace F. Napolitano,rep,Democrat,2021-01-03,2023-01-03,[117],california
+bill,posey,M,1947-12-18,Bill Posey,rep,Republican,2021-01-03,2023-01-03,[117],florida
+c.,ruppersberger,M,1946-01-31,C. A. Dutch Ruppersberger,rep,Democrat,2021-01-03,2023-01-03,[117],maryland
+gregorio,sablan,M,1955-01-19,Gregorio Kilili Camacho Sablan,rep,Democrat,2021-01-03,2023-01-03,[117],mp
+john,sarbanes,M,1962-05-22,John P. Sarbanes,rep,Democrat,2021-01-03,2023-01-03,[117],maryland
+kyrsten,sinema,F,1976-07-12,Kyrsten Sinema,sen,Independent,2019-01-03,2025-01-03,"[116, 117, 118]",arizona
+tony,cárdenas,M,1963-03-31,Tony Cárdenas,rep,Democrat,2021-01-03,2023-01-03,[117],california
+daniel,kildee,M,1958-08-11,Daniel T. Kildee,rep,Democrat,2021-01-03,2023-01-03,[117],michigan
+ann,kuster,F,1956-09-05,Ann M. Kuster,rep,Democrat,2021-01-03,2023-01-03,[117],new hampshire
+brad,wenstrup,M,1958-06-17,Brad R. Wenstrup,rep,Republican,2021-01-03,2023-01-03,[117],ohio
+matthew,cartwright,M,1961-05-01,Matt Cartwright,rep,Democrat,2021-01-03,2023-01-03,[117],pennsylvania
+derek,kilmer,M,1974-01-01,Derek Kilmer,rep,Democrat,2021-01-03,2023-01-03,[117],washington
+garret,graves,M,1972-01-31,Garret Graves,rep,Republican,2021-01-03,2023-01-03,[117],louisiana
+alexander,mooney,M,1971-06-05,Alexander X. Mooney,rep,Republican,2021-01-03,2023-01-03,[117],west virginia
+a.,ferguson,M,1966-11-15,A. Drew Ferguson IV,rep,Republican,2021-01-03,2023-01-03,[117],georgia
+jenniffer,gonzález-colón,F,1976-08-05,Jenniffer González-Colón,rep,Republican,2021-01-03,2023-01-03,[117],pr
+debbie,lesko,F,1958-11-14,Debbie Lesko,rep,Republican,2021-01-03,2023-01-03,[117],arizona
+susan,wild,F,1957-06-07,Susan Wild,rep,Democrat,2021-01-03,2023-01-03,[117],pennsylvania
+katie,porter,F,1974-01-03,Katie Porter,rep,Democrat,2021-01-03,2023-01-03,[117],california
+greg,pence,M,1956-11-14,Greg Pence,rep,Republican,2021-01-03,2023-01-03,[117],indiana
+david,trone,M,1955-09-21,David J. Trone,rep,Democrat,2021-01-03,2023-01-03,[117],maryland
+dean,phillips,M,1969-01-20,Dean Phillips,rep,Democrat,2021-01-03,2023-01-03,[117],minnesota
+colin,allred,M,1983-04-15,Colin Z. Allred,rep,Democrat,2021-01-03,2023-01-03,[117],texas
+abigail,spanberger,F,1979-08-07,Abigail Davis Spanberger,rep,Democrat,2021-01-03,2023-01-03,[117],virginia
+jennifer,wexton,F,1968-05-27,Jennifer Wexton,rep,Democrat,2021-01-03,2023-01-03,[117],virginia
+mike,braun,M,1954-03-24,Mike Braun,sen,Republican,2019-01-03,2025-01-03,"[116, 117, 118]",indiana
+mitt,romney,M,1947-03-12,Mitt Romney,sen,Republican,2019-01-03,2025-01-03,"[116, 117, 118]",utah
+dan,bishop,M,1964-07-01,Dan Bishop,rep,Republican,2021-01-03,2023-01-03,[117],north carolina
+mike,garcia,M,1976-04-24,Mike Garcia,rep,Republican,2021-01-03,2023-01-03,[117],california
+jerry,carl,M,1958-06-17,Jerry L. Carl,rep,Republican,2021-01-03,2023-01-03,[117],alabama
+michelle,steel,F,1955-06-21,Michelle Steel,rep,Republican,2021-01-03,2023-01-03,[117],california
+jacob,laturner,M,1988-02-17,Jake LaTurner,rep,Republican,2021-01-03,2023-01-03,[117],kansas
+cori,bush,F,1976-07-21,Cori Bush,rep,Democrat,2021-01-03,2023-01-03,[117],missouri
+matthew,rosendale,M,1960-07-07,"Matthew M. Rosendale, Sr.",rep,Republican,2021-01-03,2023-01-03,[117],montana
+kathy,manning,F,1956-12-03,Kathy E. Manning,rep,Democrat,2021-01-03,2023-01-03,[117],north carolina
+jamaal,bowman,M,1976-04-01,Jamaal Bowman,rep,Democrat,2021-01-03,2023-01-03,[117],new york
+robert,good,M,1965-09-11,Bob Good,rep,Republican,2021-01-03,2023-01-03,[117],virginia
+mary,peltola,F,1973-08-31,Mary Sattler Peltola,rep,Democrat,2022-09-13,2023-01-03,[117],alaska
+marco,rubio,M,1971-05-28,Marco Rubio,sen,Republican,2017-01-03,2023-01-03,"[115, 116, 117]",florida

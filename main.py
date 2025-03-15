@@ -15,7 +15,8 @@ logging.basicConfig(
 logger = logging.getLogger()
 
 
-preloaded_speeches_path = os.path.join(os.path.dirname(__file__), "pdf_contents_df.csv")#os.getenv("PRESCRAPED_SPEECHES_PATH", "")
+preloaded_speeches_path = os.getenv("PRESCRAPED_SPEECHES_PATH", "") 
+
 if preloaded_speeches_path:
     # Override with full preloaded speeaches
     logger.info(f"Reading preloaded speeches dataframe: {preloaded_speeches_path}")
