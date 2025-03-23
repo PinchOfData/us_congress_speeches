@@ -202,6 +202,7 @@ class CongressionalSpeechExtractor:
             rf"{prefix}\s*Speaker,\s*I reserve the balance of my time|"
             rf"\b{prefix}\s+([A-Z]+(?:\s[A-Z]+)*)\s*(of [\w ]*)?\.?\s*(?:Mr\.|Madam)\s*(?:Speaker|President)|"
             r"<SPEAKER_BREAK>|"
+            r"\bDaily Digest HIGHLIGHTS\b|"
             r"$|"
             r"(?:[A-Z]+\s+[A-Z]+\s+[A-Z]+\s+[A-Z]+\s+[A-Z]+(?:\s+[A-Z]+)*)"
             r")"
